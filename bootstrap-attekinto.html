@@ -12,32 +12,32 @@
 <body>
 
     <!-- FEJLÉC -->
-    <header class="bg-black text-center text-white">
-        <div>
-            <h1>Programozó suli</h1>
+    <header>
+        <div class="container-fluid text-bg-dark py-5 text-center">
+            <h1 class="fw-bold fs-1 text-uppercase mb-3">Programozó suli</h1>
 
-            <p>
+            <p class="fs-4 fw-light mb-4">
                 Tanulj weboldalt készíteni HTML, CSS és Bootstrap segítségével!
             </p>
 
             <a href="#tanfolyamok" class="btn btn-primary">Tanfolyamok</a>
-            <a href="#orarend" class="btn btn-outline-primary">Órarend</a>
+            <a href="#orarend" class="btn btn-outline-primary text-white">Órarend</a>
         </div>
     </header>
 
 
     <!-- BEVEZETŐ SZAKASZ -->
-    <section>
+    <section class="container p-5">
         <div class="row">
-            <div class="col-md-6 my-4 font-5">
-                <h2>Miért érdemes Bootstrapet tanulni?</h2>
+            <div class="col-sm-12 col-lg-6">
+                <h2 class="text-primary my-4 fw-bold mb-3">Miért érdemes Bootstrapet tanulni?</h2>
 
-                <p>
+                <p class="">
                     A Bootstrap segítségével gyorsan készíthetünk rendezett, reszponzív weboldalakat.
                     Sok előre elkészített osztályt használhatunk, így kevesebb saját CSS-kódot kell írni.
                 </p>
 
-                <p class="fst">
+                <p class="fst-italic text-danger">
                     Fontos: a Bootstrap nem helyettesíti a HTML és CSS tudást, hanem segít gyorsabban dolgozni.
                 </p>
 
@@ -45,7 +45,7 @@
             </div>
 
             <div>
-                <img src="https://picsum.photos/600/350" alt="Programozás tanulása">
+                <img src="https://picsum.photos/600/350" alt="Programozás tanulása" class="img-fluid">
             </div>
         </div>
     </section>
@@ -53,15 +53,15 @@
 
     <!-- TANFOLYAMOK -->
     <section id="tanfolyamok">
-        <div>
+        <div class="text-center">
             <h2>Tanfolyamok</h2>
 
-            <p>
+            <p class="text-primary">
                 Három alapvető témával kezdjük a weboldalkészítést.
             </p>
         </div>
 
-        <div>
+        <div class="row">
             <div>
                 <div>
                     <h3>HTML alapok</h3>
