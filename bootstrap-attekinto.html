@@ -32,7 +32,7 @@
             <div class="col-sm-12 col-lg-6">
                 <h2 class="text-primary my-4 fw-bold mb-3">Miért érdemes Bootstrapet tanulni?</h2>
 
-                <p class="">
+                <p class="fs-5">
                     A Bootstrap segítségével gyorsan készíthetünk rendezett, reszponzív weboldalakat.
                     Sok előre elkészített osztályt használhatunk, így kevesebb saját CSS-kódot kell írni.
                 </p>
@@ -44,7 +44,7 @@
                 <a href="#jelentkezes" class="btn btn-success">Jelentkezem</a>
             </div>
 
-            <div>
+            <div class="col-sm-12 col-lg-6">
                 <img src="https://picsum.photos/600/350" alt="Programozás tanulása" class="img-fluid">
             </div>
         </div>
@@ -52,49 +52,49 @@
 
 
     <!-- TANFOLYAMOK -->
-    <section id="tanfolyamok">
-        <div class="text-center">
-            <h2>Tanfolyamok</h2>
+    <section id="tanfolyamok" class="container my-5">
+        <div class="text-center m-3">
+            <h2 class="fw-bold">Tanfolyamok</h2>
 
-            <p class="text-primary">
+            <p class="text-secondary">
                 Három alapvető témával kezdjük a weboldalkészítést.
             </p>
         </div>
 
         <div class="row">
-            <div>
-                <div>
-                    <h3>HTML alapok</h3>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="text-bg-primary p-4 rounded">
+                    <h3 class="fw-bold fs-4">HTML alapok</h3>
 
                     <p>
                         Megtanuljuk, hogyan épül fel egy weboldal szerkezete.
                     </p>
 
-                    <button>Részletek</button>
+                    <button class="btn btn-light">Részletek</button>
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="text-bg-success p-4 rounded">
                     <h3>CSS formázás</h3>
 
                     <p>
                         Színeket, betűtípusokat, térközöket és elrendezéseket készítünk.
                     </p>
 
-                    <button>Részletek</button>
+                    <button class="btn btn-warning">Részletek</button>
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="text-bg-warning p-4 rounded">
                     <h3>Bootstrap</h3>
 
                     <p>
                         Kész osztályokkal gyorsan alakítunk ki reszponzív oldalakat.
                     </p>
 
-                    <button>Részletek</button>
+                    <button class="btn btn-dark">Részletek</button>
                 </div>
             </div>
         </div>
@@ -102,10 +102,10 @@
 
 
     <!-- LISTÁK -->
-    <section>
-        <div>
-            <div>
-                <h2>Mit tanulunk?</h2>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <h2 class="fw-bold mb-3">Mit tanulunk?</h2>
 
                 <ul>
                     <li>Bootstrap konténerek használata</li>
@@ -115,24 +115,24 @@
                 </ul>
             </div>
 
-            <div>
-                <h2>Gyors menü</h2>
+            <div class="col-sm-12 col-lg-6 ">
+                <h2 class="fw-bold mb-3">Gyors menü</h2>
 
-                <ul>
-                    <li>
-                        <a href="#tanfolyamok">Tanfolyamok</a>
+                <ul class="list-unstyled">
+                    <li class="list-inline-item">
+                        <a href="#tanfolyamok" class="btn btn-outline-primary">Tanfolyamok</a>
                     </li>
 
-                    <li>
-                        <a href="#orarend">Órarend</a>
+                    <li class="list-inline-item">
+                        <a href="#orarend" class="btn btn-outline-success">Órarend</a>
                     </li>
 
-                    <li>
-                        <a href="#jelentkezes">Jelentkezés</a>
+                    <li class="list-inline-item">
+                        <a href="#jelentkezes" class="btn btn-outline-dark">Jelentkezés</a>
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="list-unstyled">
                     <li>Nincs listaikon</li>
                     <li>Ez a lista ikon nélküli lesz Bootstrap segítségével.</li>
                 </ul>
@@ -253,6 +253,7 @@
             <p>
                 Bootstrap gyakorlóoldal kezdőknek
             </p>
+            <p>Kállai Nikolett</p>
         </div>
     </footer>
 
